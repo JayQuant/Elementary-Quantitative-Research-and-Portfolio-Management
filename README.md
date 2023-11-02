@@ -1,3 +1,11 @@
+# How to View my Work
+Please click on the links below to view the html page containing codes.
+
+1. [Data collection via web scraping
+](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Financia-Data-Scraping%2C-Collection%2C-and-Organization.html)
+2. [Data cleaning & organizing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Cleaning-Data.html)
+
+
 # Elementary-Quantitative-Research-and-Portfolio-Management-on-R
 This is a repository of codes and notebooks displaying my ongoing journey of completing the [Quant Cookbook](https://hyunyulhenry.github.io/quant_cookbook/) written by KAIST MFE professor LEE Hyunyul.
 
