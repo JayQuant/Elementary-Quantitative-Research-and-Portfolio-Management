@@ -39,7 +39,7 @@ I learned how to manipulate large sized dataframes mostly using **dplyr** and **
 I attempted to build long-only factor portfolios based on the following factors. I mainly used the `rank()` function to rank stocks based on factors and then screened the top 30 stocks to include in the long-only portfolio.
 
 - Value (PBR)
-- Time Series Momentum (12m returns based on daily returns + weekly returns)
+- Time Series Momentum (12m returns based on daily returns + risk-adjusted returns)
 - Quality (Based on F-score)
 - Low-vol (Based on standard deviation of 12m returns; calculated using daily + weekly returns)
 
