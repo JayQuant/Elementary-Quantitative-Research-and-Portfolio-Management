@@ -4,6 +4,7 @@ Please click on the links below to view the html page containing codes.
 1. [Data collection via web scraping
 ](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Financia-Data-Scraping%2C-Collection%2C-and-Organization.html)
 2. [Data cleaning & organizing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Cleaning-Data.html)
+3. [Basic Factor Investing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Elementary-Factor-Investing.html)
 
 
 # Elementary-Quantitative-Research-and-Portfolio-Management-on-R
@@ -32,7 +33,14 @@ I learned how to manipulate large sized dataframes mostly using **dplyr** and **
 - Combine individual csv files of valuation ratios into a single data frame
 - Combine individual csv files of financial statements into a list consisted of data frames comparing financial items of all publicly listed stocks
 
-## EDA & data visualization
-
 ## Quantitative Research and Bactktesting, Portfolio Management, and Performance Measurement
 
+### Basic Factor Investing
+I attempted to build long-only factor portfolios based on the following factors. I mainly used the `rank()` function to rank stocks based on factors and then screened the top 30 stocks to include in the long-only portfolio.
+
+- Value (PBR)
+- Time Series Momentum (12m returns based on daily returns + weekly returns)
+- Quality (Based on F-score)
+- Low-vol (Based on standard deviation of 12m returns; calculated using daily + weekly returns)
+
+### Market Neutral Long-Short Portfolios
