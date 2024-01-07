@@ -10,12 +10,11 @@ Please click on the links below to view the html page containing codes.
 # Elementary-Quantitative-Research-and-Portfolio-Management-on-R
 This is a repository of codes and notebooks displaying my ongoing journey of completing the [Quant Cookbook](https://hyunyulhenry.github.io/quant_cookbook/) written by KAIST MFE professor LEE Hyunyul.
 
-There are mainly four sections to this journey.
+There are mainly three sections to this journey.
 
 1. Data collection via web scraping (Completed)
 2. Data cleaning & organizing (Completed)
-3. EDA & data visualization (Ongoing)
-4. Quantitative Research and Bactktesting, Portfolio Management, and Performance Measurement (Not Started)
+4. Quantitative Research and Bactktesting, Portfolio Management, and Performance Measurement (Ongoing)
 
 ## Data collection via web scraping
 I have learned basics of web scraping, html navigation and collected varieties of financial data from different websites using POST and GET requests. Below are some of the tasks that I've done.
