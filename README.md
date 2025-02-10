@@ -5,6 +5,7 @@ Please click on the links below to view the html page containing codes.
 ](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Financia-Data-Scraping%2C-Collection%2C-and-Organization.html)
 2. [Data cleaning & organizing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Cleaning-Data.html)
 3. [Basic Factor Investing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Elementary-Factor-Investing.html)
+4. [Applied Factor Investing]()
 
 
 # Elementary-Quantitative-Research-and-Portfolio-Management-on-R
@@ -14,7 +15,9 @@ There are mainly three sections to this journey.
 
 1. Data collection via web scraping (Completed)
 2. Data cleaning & organizing (Completed)
-4. Quantitative Research and Bactktesting, Portfolio Management, and Performance Measurement (Ongoing)
+3. Basic Factor Construction (Completed)
+4. Applied Factor Investing (Completed)
+5. Portfolio Theory (Ongoing)
 
 ## Data collection via web scraping
 I have learned basics of web scraping, html navigation and collected varieties of financial data from different websites using POST and GET requests. Below are some of the tasks that I've done.
@@ -42,4 +45,17 @@ I attempted to build long-only factor portfolios based on the following factors.
 - Quality (Based on F-score)
 - Low-vol (Based on standard deviation of 12m returns; calculated using daily + weekly returns)
 
-### Market Neutral Long-Short Portfolios
+### Market Neutral Portfolios and Multi-Factor Portfolios
+In this section, I explored methods to neutralize sector exposure by using a group_by-z-score method. That is, instead of applying a z-score to a raw feature, we group the feature by sectors and then apply z-score to each group. Then, we essentially force ourself to choose stocks whose *relative performance* within each sector are good.
+
+Another simple yet effective method is to apply a hard constraint (e.g., five names per sector) to neutralize sector exposure.
+
+Next, we investigated how Joel Greenblatt's magic formulate performed in the Korean markets.
+
+Finally, We looked into the construction of multi-factor portfolio based on following factors.
+
+1. Quality (ROE, GPA, ROC)
+2. Value (PER, PCR, PBR, PSR)
+3. Momentum (Short-term, Mid-term)
+
+Naively ranking and aggregating the subsequent ranks cross-sectionally can be misleading. This problem is magnified especially when the range of ranks is widely different between features, since aggregation will lead to one feature influencing the overall forecast asymmetrically. To cope with this issue, we also apply standardization to the ranks themselves before doing cross-aggregation.
