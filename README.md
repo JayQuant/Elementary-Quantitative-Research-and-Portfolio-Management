@@ -7,8 +7,11 @@ Please click on the links below to view the html page containing codes.
 3. [Basic Factor Investing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Elementary-Factor-Investing.html)
 4. [Applied Factor Investing](https://htmlpreview.github.io/?https://github.com/JayQuant/Elementary-Quantitative-Research-and-Portfolio-Management-on-R/blob/main/Applications-of-Factor-Investing.html)
 
+**Tech**
+- From 1. - 4., I mostly relied on R to collect & clean data and perform quantitative analysis. I used a lot of `tidyverse` and `dplyr` packages.
+- From 5. I am using Python.
 
-# Elementary-Quantitative-Research-and-Portfolio-Management-on-R
+# Elementary-Quantitative-Research-and-Portfolio-Management
 This is a repository of codes and notebooks displaying my ongoing journey of completing the [Quant Cookbook](https://hyunyulhenry.github.io/quant_cookbook/) written by KAIST MFE professor LEE Hyunyul.
 
 There are mainly three sections to this journey.
